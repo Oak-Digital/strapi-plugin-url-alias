@@ -2,13 +2,15 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "pluginpal/strapi-webtools" }
+    {
+      "repo": "pluginpal/strapi-webtools"
+    }
   ],
   "commit": false,
   "fixed": [],
   "linked": [],
   "access": "public",
-  "baseBranch": "master",
+  "baseBranch": "oak-main",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
